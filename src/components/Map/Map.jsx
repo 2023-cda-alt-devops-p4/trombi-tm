@@ -1,8 +1,16 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-
-import { MapContainer, TileLayer, useMap, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
+
+import { 
+    MapContainer, 
+    TileLayer, 
+    useMap, 
+    Marker, 
+    Popup 
+} from 'react-leaflet';
+
+import { Modal } from "../Modal";
 
 const Map = ({ 
     scrollWheelZoom = false,
@@ -14,6 +22,7 @@ const Map = ({
 }) => {
 
     const [modalData, setModalData] = useState(null);
+    const [modalIsOpen, setModalIsOpen] = useState(false);
 
     return(
         <MapWrapper withHeight={withHeight} withWidth={withWidth}>
@@ -41,11 +50,26 @@ const Map = ({
                             shadowAnchor: null
                         })}
                         eventHandlers={{
-                            click: () => setModalData(marker),
+                            click: () => {
+                                setModalData(marker);
+                                setModalIsOpen((prevState) => !prevState);
+                            },
                         }}
                     />
                 )))}
             </MapContainer>
+            {(modalIsOpen && modalData !== null) && (
+                <Modal
+                    isVisible={modalIsOpen}
+                    setIsVisible={setModalIsOpen}
+                    title={modalData?.name}
+                    subTitle={modalData?.city}
+                    afterSubTitle={modalData?.simpleWord}
+                    imageHeader={modalData?.image}
+                >
+                    
+                </Modal>
+            )}
         </MapWrapper>
     )
 }
@@ -67,6 +91,7 @@ const MapWrapper = styled.div`
         width: 64px;
         height: 64px;
         object-fit: cover;
+        border: 5px solid ${({ theme }) => theme.colorPrimary()};
     }
 `;
 
