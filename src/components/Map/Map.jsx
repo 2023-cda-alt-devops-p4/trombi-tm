@@ -33,8 +33,8 @@ const Map = ({
                         position={marker?.position}
                         icon={L.icon({
                             iconUrl: marker?.image,
-                            iconSize: [32, 32],
-                            iconAnchor: [32, 32],
+                            iconSize: [64,64],
+                            iconAnchor: [64, 64],
                             popupAnchor: null,
                             shadowUrl: null,
                             shadowSize: null,
