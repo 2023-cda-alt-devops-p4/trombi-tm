@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Yassine",
+        "simpleWord": "Riz",
+        "city": "Arras",
+        "position": [ 50.292000, 2.780000 ],
+        "skills": [
+            "Springboot",
+            "Angular",
+            "Docker"
+        ],
+        "hobbies": [
+            "Sport",
+            "Jeux video"
+        ]
+    },
+    {
+        "name": "Marine",
+        "simpleWord": "Bonne humeur",
+        "city": "La Madeleine",
+        "position": [ 50.64603, 3.07585 ],
+        "skills": [
+            "Cobol",
+            "Ruby on Rails"
+        ],
+        "hobbies": [
+            "Sport",
+            "Animaux de compagnie",
+            "Jeux video",
+            "Cinéma",
+            "Série",
+            "Gastronomie Asiatique"
+        ]
+    }
+]

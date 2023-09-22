@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 import { Map } from "../components/Map";
+import { Markers } from "../data";
 
 const HomePage = () => {
 
@@ -11,9 +12,7 @@ const HomePage = () => {
                 withHeight="100vh"
                 zoom={8.5}
                 center={[49.63297, 3.05858]}
-                markers={[
-                    { position: [50.6346, 3.0704] }
-                ]}
+                markers={Markers}
             />
         </HomeContainer>
     )
