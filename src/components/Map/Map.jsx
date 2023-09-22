@@ -33,8 +33,8 @@ const Map = ({
                         position={marker?.position}
                         icon={L.icon({
                             iconUrl: marker?.image,
-                            iconSize: [64,64],
-                            iconAnchor: [32, 64],
+                            iconSize: [32, 32],
+                            iconAnchor: [32, 32],
                             popupAnchor: null,
                             shadowUrl: null,
                             shadowSize: null,
@@ -60,6 +60,13 @@ const MapWrapper = styled.div`
     .leaflet-container {
         height: 100%;
         width: 100%;
+    }
+
+    .leaflet-marker-icon {
+        border-radius: 100%;
+        width: 64px;
+        height: 64px;
+        object-fit: cover;
     }
 `;
 
