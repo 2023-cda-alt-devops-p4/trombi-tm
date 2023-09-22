@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 
 import { MapContainer, TileLayer, useMap, Marker, Popup } from 'react-leaflet';
+import L from 'leaflet';
 
 const Map = ({ 
     scrollWheelZoom = false,
@@ -11,6 +12,8 @@ const Map = ({
     withWidth = "100%",
     markers = [],
 }) => {
+
+    const [modalData, setModalData] = useState(null);
 
     return(
         <MapWrapper withHeight={withHeight} withWidth={withWidth}>
@@ -25,11 +28,22 @@ const Map = ({
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
                 {markers.map((marker, index) => ((
-                    <Marker key={`marker-${index}`} position={marker?.position}>
-                        <Popup>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione nostrum debitis totam.
-                        </Popup>
-                    </Marker>
+                    <Marker 
+                        key={`marker-${index}`} 
+                        position={marker?.position}
+                        icon={L.icon({
+                            iconUrl: marker?.image || "",
+                            iconSize: [64,64],
+                            iconAnchor: [32, 64],
+                            popupAnchor: null,
+                            shadowUrl: null,
+                            shadowSize: null,
+                            shadowAnchor: null
+                        })}
+                        eventHandlers={{
+                            click: () => setModalData(marker),
+                        }}
+                    />
                 )))}
             </MapContainer>
         </MapWrapper>
@@ -47,4 +61,26 @@ const MapWrapper = styled.div`
         height: 100%;
         width: 100%;
     }
+`;
+
+const PopupContent = styled.div`
+    width: 100%;
+    height: auto;
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+`;
+
+const Name = styled.h2`
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    font-weight: normal;
+`;
+
+const Avatar = styled.img`
+    border-radius: 100%;
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
 `;
