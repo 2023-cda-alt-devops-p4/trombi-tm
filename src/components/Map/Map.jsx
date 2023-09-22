@@ -32,7 +32,7 @@ const Map = ({
                         key={`marker-${index}`} 
                         position={marker?.position}
                         icon={L.icon({
-                            iconUrl: marker?.image || "",
+                            iconUrl: marker?.image,
                             iconSize: [64,64],
                             iconAnchor: [32, 64],
                             popupAnchor: null,
