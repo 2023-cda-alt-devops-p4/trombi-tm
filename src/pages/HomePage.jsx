@@ -13,6 +13,7 @@ const HomePage = () => {
                 zoom={8.5}
                 center={[49.63297, 3.05858]}
                 markers={Markers}
+                scrollWheelZoom={true}
             />
         </HomeContainer>
     )
