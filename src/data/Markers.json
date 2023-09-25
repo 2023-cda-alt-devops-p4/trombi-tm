@@ -248,16 +248,28 @@
         ]
     },
     {
-        "name": "",
-        "image": "",
-        "simpleWord": "",
-        "city": "",
-        "position": [  ],
+        "name": "Thomas Mortelette",
+        "image": "https://media.licdn.com/dms/image/C4E03AQEHgl7zMrio8g/profile-displayphoto-shrink_200_200/0/1614677595219?e=1700697600&v=beta&t=M0DCUSFCNbpYAKva1kfTKJn8jrRx4kNif-gnENtsKHg",
+        "simpleWord": "Bienveillant",
+        "city": "Lille",
+        "position": [ 50.633333, 3.066667 ],
         "skills": [
-            { "name": "", "icon": "" }
+            { "name": "Symfony", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Symfony-Light.svg" },
+            { "name": "Asp.net", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/DotNet.svg" },
+            { "name": "Node.js", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/NodeJS-Light.svg" },
+            { "name": "React", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/React-Light.svg" },
+            { "name": "Vue", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/VueJS-Light.svg" },
+            { "name": "Angular", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Angular-Light.svg" },
+            { "name": "MySQL", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/MySQL-Light.svg" },
+            { "name": "Postgresql", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/PostgreSQL-Light.svg" },
+            { "name": "GraphQL", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/GraphQL-Light.svg" }
         ],
         "hobbies": [
-            ""
+            "Jeux videos",
+            "Jeux de société",
+            "Développement",
+            "Cinéma",
+            "Séries"
         ]
     }
 ]
