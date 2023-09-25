@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Markers } from "../../data";
 import styled from "styled-components";
+import { FiChevronsRight, FiChevronsLeft } from "react-icons/fi";
 
 const Sidebar = () => {
 
@@ -10,10 +11,9 @@ const Sidebar = () => {
     <>
       <ToggleButton isVisible={SidebarVisible} onClick={() => setSidebarVisible(!SidebarVisible)}>
         {SidebarVisible ? 
-        'Close'
+        <FiChevronsLeft size={20} />
         : 
-        'Open'}
-
+        <FiChevronsRight size={20} />}
       </ToggleButton>
         <SidebarContent isVisible={SidebarVisible}>
             <SidebarList>
@@ -30,6 +30,7 @@ export default Sidebar;
 
 const SidebarContent = styled.div`
   ${({ isVisible }) => isVisible ? `
+  transform: translateX(0px);
     ` : `transform: translateX(-200px);`}
     position: fixed;
     z-index: 9999;
@@ -39,6 +40,7 @@ const SidebarContent = styled.div`
     width: 200px;
     background-color: #FFFFFF;
     padding-top: 50px;
+    transition: 0.2s transform;
 `
 
 const SidebarList = styled.ul`
@@ -64,4 +66,7 @@ const ToggleButton = styled.button`
   height: 33px;
   width: 33px;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `
