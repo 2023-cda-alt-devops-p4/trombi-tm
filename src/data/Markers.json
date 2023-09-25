@@ -6,9 +6,9 @@
         "city": "Arras",
         "position": [ 50.292000, 2.780000 ],
         "skills": [
-            "Springboot",
-            "Angular",
-            "Docker"
+            { "name": "SpringBoot", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Spring-Light.svg" },
+            { "name": "Angular", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Angular-Light.svg" },
+            { "name": "Docker", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Docker.svg" }
         ],
         "hobbies": [
             "Sport",
@@ -22,8 +22,8 @@
         "city": "La Madeleine",
         "position": [ 50.64603, 3.07585 ],
         "skills": [
-            "Cobol",
-            "Ruby on Rails"
+            {"name" : "Cobol", "icon" : "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_cobol_icon_130684.png"},
+            {"name" : "Ruby on Rails", "icon" : "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Rails.svg"}
         ],
         "hobbies": [
             "Sport",
@@ -41,11 +41,11 @@
         "city": "Valenciennes",
         "position": [ 50.3579317, 3.5234846 ],
         "skills": [
-            "React",
-            "Node",
-            "Java",
-            "Php",
-            "VB.NET"
+            { "name": "React", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/React-Light.svg" },
+            { "name": "Node", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/NodeJS-Light.svg" },
+            { "name": "Java", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Java-Light.svg" },
+            { "name": "PHP", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/PHP-Light.svg" },
+            { "name": "VB.NET", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/DotNet.svg" }
         ],
         "hobbies": [
             "Jeux video",
@@ -61,9 +61,9 @@
         "city": "Templemars",
         "position": [ 50.5762334, 3.0528537 ],
         "skills": [
-            "React",
-            "React Native",
-            "SpringBoot"
+            { "name": "React", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/React-Light.svg" },
+            { "name": "React Native", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/React-Light.svg" },
+            { "name": "SpringBoot", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Spring-Light.svg" }
         ],
         "hobbies": [
             "Cuisine",
@@ -79,8 +79,8 @@
         "city": "Lille",
         "position": [ 50.6265654,3.0635282 ],
         "skills": [
-            "Angular",
-            ".NET"
+            { "name": "Angular", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Angular-Light.svg" },
+            { "name": ".NET", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/DotNet.svg" }
         ],
         "hobbies": [
             "Cinéma",
@@ -95,12 +95,12 @@
         "city": "Gretz-Armainvilliers",
         "position": [ 48.7410407,2.7359603 ],
         "skills": [
-            "React",
-            "Next",
-            "Symfony",
-            "Node",
-            "Laravel",
-            "Flutter"
+            { "name": "React", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/React-Light.svg" },
+            { "name": "Next", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/NextJS-Light.svg" },
+            { "name": "Symfony", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Symfony-Light.svg" },
+            { "name": "Node", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/NodeJS-Light.svg" },
+            { "name": "Laravel", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Laravel-Light.svg" },
+            { "name": "Flutter", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Flutter-Light.svg" }
         ],
         "hobbies": [
             "Lecture",
@@ -116,10 +116,10 @@
         "city": "Lestrem",
         "position": [ 50.6216212,2.6857534 ],
         "skills": [
-            "React",
-            "Next",
-            "Node",
-            "TypeScript"
+            { "name": "React", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/React-Light.svg" },
+            { "name": "Next", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/NextJS-Light.svg" },
+            { "name": "Node", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/NodeJS-Light.svg" },
+            { "name": "TypeScript", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/TypeScript.svg" }
         ],
         "hobbies": [
             "Lecture",
@@ -136,10 +136,10 @@
         "city": "Ronchin",
         "position": [ 50.6056749,3.0778827 ],
         "skills": [
-            "React",
-            "Next",
-            "C#",
-            ".NET"
+            { "name": "React", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/React-Light.svg" },
+            { "name": "Next", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/NextJS-Light.svg" },
+            { "name": "C#", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/CS.svg" },
+            { "name": ".NET", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/DotNet.svg" }
         ],
         "hobbies": [
             "Football",
@@ -154,13 +154,13 @@
         "city": "Paris",
         "position": [ 48.8588897,2.320041 ],
         "skills": [
-            "React",
-            "Angular",
-            "TypeScript",
-            "SpringBoot",
-            "Swift",
-            "SwiftUI",
-            "SQL"
+            { "name": "React", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/React-Light.svg" },
+            { "name": "Angular", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Angular-Light.svg" },
+            { "name": "TypeScript", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/TypeScript.svg" },
+            { "name": "SpringBoot", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Spring-Light.svg" },
+            { "name": "Swift", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Swift.svg" },
+            { "name": "SwiftUI", "icon": "https://www.swiftbysundell.com/images/discover/swiftui/icon.png" },
+            { "name": "SQL", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/MySQL-Light.svg" }
         ],
         "hobbies": [
             "Cinéma",
@@ -179,10 +179,10 @@
         "city": "Paris",
         "position": [ 48.8408897,2.366041 ],
         "skills": [
-            "React",
-            "TypeScript",
-            "Node",
-            ".NET"
+            { "name": "React", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/React-Light.svg" },
+            { "name": "TypeScript", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/TypeScript.svg" },
+            { "name": "Node", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/NodeJS-Light.svg" },
+            { "name": ".NET", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/DotNet.svg" }
         ],
         "hobbies": [
             "Lecture",
@@ -198,9 +198,9 @@
         "city": "Fitz-James",
         "position": [ 49.3918395,2.4283593 ],
         "skills": [
-            "React",
-            "Node",
-            "SQL"
+            { "name": "React", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/React-Light.svg" },
+            { "name": "Node", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/NodeJS-Light.svg" },
+            { "name": "SQL", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/MySQL-Light.svg" }
         ],
         "hobbies": [
             "Lecture",
@@ -216,10 +216,10 @@
         "city": "Lille",
         "position": [ 50.6405654,3.0685282 ],
         "skills": [
-            "Vue",
-            "Java Quarkus",
-            "Angular",
-            "Power BI"
+            { "name": "Vue", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/VueJS-Light.svg" },
+            { "name": "Java Quarkus", "icon": "https://seeklogo.com/images/Q/quarkus-logo-C9F006782E-seeklogo.com.png" },
+            { "name": "Angular", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Angular-Light.svg" },
+            { "name": "Power BI", "icon": "https://static-00.iconduck.com/assets.00/power-bi-icon-1536x2048-0xah5g2o.png" }
         ],
         "hobbies": [
             "Lecture",
@@ -229,6 +229,35 @@
             "Alcool",
             "Taekwondo",
             "Karaoké"
+        ]
+    },
+    {
+        "name": "Zakaria Laskari",
+        "image": "https://media.licdn.com/dms/image/D4E03AQF62H8IG5NJbA/profile-displayphoto-shrink_800_800/0/1677573268921?e=1701302400&v=beta&t=vcUB1dnlM5ttVk1WEa_GZ5l-uU2dUc8OyhtZ4oS3DOY",
+        "simpleWord": "Oui",
+        "city": "Roubaix",
+        "position": [ 50.6927049,3.177847 ],
+        "skills": [
+            { "name": "Symfony", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Symfony-Light.svg" },
+            { "name": "React", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/React-Light.svg" }
+        ],
+        "hobbies": [
+            "Sport",
+            "Manga",
+            "Jeux Videos"
+        ]
+    },
+    {
+        "name": "",
+        "image": "",
+        "simpleWord": "",
+        "city": "",
+        "position": [  ],
+        "skills": [
+            { "name": "", "icon": "" }
+        ],
+        "hobbies": [
+            ""
         ]
     }
 ]
