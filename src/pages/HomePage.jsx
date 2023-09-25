@@ -3,13 +3,11 @@ import styled from "styled-components";
 
 import { Map } from "../components/Map";
 import { Markers } from "../data";
-import { Sidebar } from "../components/Sidebar";
 
 const HomePage = () => {
 
     return(
         <HomeContainer>
-            <Sidebar />
             <Map 
                 withHeight="100vh"
                 zoom={8.5}
