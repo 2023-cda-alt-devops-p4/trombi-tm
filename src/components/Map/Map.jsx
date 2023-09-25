@@ -23,10 +23,10 @@ import { PopupMessage } from "../Popup";
 const Map = ({ 
     scrollWheelZoom = false,
     zoom = 13,
-    center= [51.505, -0.09],
+    center = [51.505, -0.09],
     withHeight = "300px",
     withWidth = "100%",
-    markers = [],
+    markers = []
 }) => {
 
     const [modalData, setModalData] = useState(null);
@@ -40,7 +40,7 @@ const Map = ({
                 center={center} 
                 zoom={zoom} 
                 scrollWheelZoom={scrollWheelZoom}
-
+                minZoom={zoom}
             >
                 <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
