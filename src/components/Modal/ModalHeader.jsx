@@ -16,9 +16,9 @@ const ModalHeader = ({
             <TitleContainer>
                 <Avatar src={imageHeader} alt={title} />
                 <TitleSubContainer>
-                    <Title>{title}</Title>
-                    <SubTitle>{subTitle}</SubTitle>
-                    <AfterSubTitle>{afterSubTitle}</AfterSubTitle>
+                    {typeof title === "string" ? <h1>{title}</h1> : title}
+                    {typeof subTitle === "string" ? <p>{subTitle}</p> : subTitle}
+                    {typeof afterSubTitle === "string" ? <p>{afterSubTitle}</p> : afterSubTitle}
                 </TitleSubContainer>
             </TitleContainer>
             <CloseButton onClick={() => setIsVisible((prevState) => !prevState)}>
@@ -41,13 +41,6 @@ const ModalHeaderContainer = styled.div`
     padding: 10px 20px;
 `;
 
-const Title = styled.h1`
-    font-family: "Roboto", sans-serif;
-    color: ${({ theme }) => theme.colorPrimary()};
-    letter-spacing: 1.2px;
-    font-size: 28px;
-`;
-
 const TitleContainer = styled.div`
     width: auto;
     height: 100%;
@@ -55,6 +48,19 @@ const TitleContainer = styled.div`
     flex-direction: row;
     align-items: center;
     gap: 10px;
+
+    h1 {
+        font-family: "Roboto", sans-serif;
+        color: ${({ theme }) => theme.colorPrimary()};
+        letter-spacing: 1.2px;
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+        color: ${({ theme }) => theme.colorPrimary()};
+        font-family: "Roboto", sans-serif;
+    }
 `;
 
 const TitleSubContainer = styled.div`
@@ -63,17 +69,6 @@ const TitleSubContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 5px;
-`;
-
-const SubTitle = styled.p`
-    color: ${({ theme }) => theme.colorPrimary()};
-    font-family: "Roboto", sans-serif;
-`;
-
-const AfterSubTitle = styled.p`
-    font-size: 16px;
-    color: ${({ theme }) => theme.colorPrimary()};
-    font-family: "Roboto", sans-serif;
 `;
 
 const Avatar = styled.img`

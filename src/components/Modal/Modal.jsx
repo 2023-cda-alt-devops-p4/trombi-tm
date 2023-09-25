@@ -11,7 +11,7 @@ const Modal = ({
     afterSubTitle,
     isVisible,
     setIsVisible,
-    children 
+    children,
 }) => {
 
     return(
@@ -68,12 +68,14 @@ const BackgroundOverlayExit = styled.div`
 
 const ModalContainer = styled.div`
     height: auto;
-    width: 50%;
+    width: clamp(50%, 60%);
+    min-width: 40%;
     background-color: #FFF;
     border-radius: 10px;
     position: relative;
     z-index: 999;
     animation: zoomIn 400ms;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 
     @keyframes zoomIn {
         from { transform: scale(0); }
@@ -83,8 +85,10 @@ const ModalContainer = styled.div`
 
 const ModalContent = styled.div`
     min-height: 500px;
+    max-height: 500px;
     height: auto;
     width: 100%;
     display: flex;
     flex-direction: column;
+    overflow-y: auto;
 `;
