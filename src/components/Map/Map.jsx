@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styled from "styled-components";
+import styled, { useTheme } from "styled-components";
 import L from 'leaflet';
 
 import { 
@@ -10,7 +10,15 @@ import {
     Popup 
 } from 'react-leaflet';
 
+import {
+    FaCity
+} from "react-icons/fa";
+
+import { BiSolidMessageDetail } from "react-icons/bi";
+
 import { Modal } from "../Modal";
+
+import { PopupMessage } from "../Popup";
 
 const Map = ({ 
     scrollWheelZoom = false,
@@ -24,8 +32,10 @@ const Map = ({
     const [modalData, setModalData] = useState(null);
     const [modalIsOpen, setModalIsOpen] = useState(false);
 
+    const theme = useTheme();
+
     return(
-        <MapWrapper withHeight={withHeight} withWidth={withWidth}>
+        <MapWrapper $withHeight={withHeight} $withWidth={withWidth}>
             <MapContainer 
                 center={center} 
                 zoom={zoom} 
@@ -63,11 +73,45 @@ const Map = ({
                     isVisible={modalIsOpen}
                     setIsVisible={setModalIsOpen}
                     title={modalData?.name}
-                    subTitle={modalData?.city}
-                    afterSubTitle={modalData?.simpleWord}
+                    subTitle={(
+                        <Row>
+                            <FaCity size={18} color={theme.colorPrimary()} />
+                            <p>{modalData?.city}</p>
+                        </Row>
+                    )}
+                    afterSubTitle={(
+                        <Row>
+                            <BiSolidMessageDetail size={18} color={theme.colorPrimary()} />
+                            <p>{modalData?.simpleWord}</p>
+                        </Row>
+                    )}
                     imageHeader={modalData?.image}
                 >
-                    
+                    <ContentContainer>
+                        <ListContainer>
+                            <ListTitle>Compétences</ListTitle>
+                            <List>
+                                {modalData?.skills.map((skill, skillIndex) => ((
+                                    <ListElement key={`skill-${skillIndex}`}>
+                                        <PopupMessage message={skill?.name}>
+                                            <SkillLogo 
+                                                src={skill?.icon} 
+                                                alt={skill?.name} 
+                                            />
+                                        </PopupMessage>
+                                    </ListElement>
+                                )))}
+                            </List>
+                        </ListContainer>
+                        <ListContainer>
+                            <ListTitle>Hobbies</ListTitle>
+                            <List $direction="column">
+                                {modalData?.hobbies.map((hobbie, hobbieIndex) => ((
+                                    <ListElement key={`hobbie-${hobbieIndex}`}>{hobbie}</ListElement>
+                                )))}
+                            </List>
+                        </ListContainer>
+                    </ContentContainer>
                 </Modal>
             )}
         </MapWrapper>
@@ -77,8 +121,8 @@ const Map = ({
 export default Map;
 
 const MapWrapper = styled.div`
-    width: ${({ withWidth }) => withWidth};
-    height: ${({ withHeight }) => withHeight};
+    width: ${({ $withWidth }) => $withWidth};
+    height: ${({ $withHeight }) => $withHeight};
     display: flex;
 
     .leaflet-container {
@@ -95,24 +139,61 @@ const MapWrapper = styled.div`
     }
 `;
 
-const PopupContent = styled.div`
-    width: 100%;
+const ListContainer = styled.div`
     height: auto;
-    padding: 5px 0;
+    width: auto;
     display: flex;
     flex-direction: column;
+    gap: 30px;
+`;
+
+const SkillLogo = styled.img`
+    width: 82px;
+    height: 82px;
+    object-fit: cover;
+`;
+
+const ListTitle = styled.h1`
+    color: ${({ theme }) => theme.colorPrimary()};
+    font-family: "Roboto", sans-serif;
+`;
+
+const ContentContainer = styled.div`
+    width: 100%;
+    height: 100%;
+    min-height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+`;
+
+const List = styled.ul`
+    display: flex;
+    flex-direction: ${({ $direction }) => $direction ? $direction : "row"};
+    gap: ${({ $direction }) => $direction !== "column" ? "20px" : "5px"};
+    flex-grow: 1;
+    padding-left: 18px;
+
+    ${({ $direction }) => $direction !== "column" && `
+        list-style: none;
+        flex-wrap: wrap;
+    `}
+`;
+
+const Row = styled.div`
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     gap: 5px;
 `;
 
-const Name = styled.h2`
+const ListElement = styled.li`
     font-family: "Roboto", sans-serif;
-    color: #000;
-    font-weight: normal;
-`;
-
-const Avatar = styled.img`
-    border-radius: 100%;
-    width: 64px;
-    height: 64px;
-    object-fit: cover;
+    font-size: 18px;
+    color: ${({ theme }) => theme.colorSecondary()};
 `;
