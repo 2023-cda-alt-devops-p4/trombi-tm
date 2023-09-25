@@ -33,13 +33,15 @@ const PopupContainer = styled.div`
 
 const Popup = styled.div`
     position: absolute;
-    z-index: 605;
+    z-index: 900;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     padding: 10px;
-    width: 100%;
-    top: -25%;
+    width: auto;
+    min-width: 100%;
+    bottom: -20px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     transition: all 300ms ease-in-out;
@@ -48,6 +50,8 @@ const Popup = styled.div`
     p {
         font-family: "Roboto", sans-serif;
         font-weight: normal;
+        color: #FFF;
+        font-size: 16px;
     }
 `;
 
