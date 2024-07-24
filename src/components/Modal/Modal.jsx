@@ -10,6 +10,7 @@ const Modal = ({
     subTitle,
     afterSubTitle,
     isVisible,
+    onRightSubTitle,
     setIsVisible,
     children,
 }) => {
@@ -21,6 +22,7 @@ const Modal = ({
                     title={title}
                     subTitle={subTitle}
                     afterSubTitle={afterSubTitle}
+                    onRightSubTitle={onRightSubTitle}
                     imageHeader={imageHeader}
                     setIsVisible={setIsVisible}
                 />

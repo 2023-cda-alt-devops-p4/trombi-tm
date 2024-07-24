@@ -6,7 +6,8 @@ import { AiOutlineClose } from "react-icons/ai";
 const ModalHeader = ({ 
     title, 
     subTitle, 
-    afterSubTitle, 
+    afterSubTitle,
+    onRightSubTitle,
     imageHeader, 
     setIsVisible 
 }) => {
@@ -18,6 +19,7 @@ const ModalHeader = ({
                 <TitleSubContainer>
                     {typeof title === "string" ? <h1>{title}</h1> : title}
                     {typeof subTitle === "string" ? <p>{subTitle}</p> : subTitle}
+                    {typeof onRightSubTitle === "string" ? <p>{onRightSubTitle}</p> : onRightSubTitle}
                     {typeof afterSubTitle === "string" ? <p>{afterSubTitle}</p> : afterSubTitle}
                 </TitleSubContainer>
             </TitleContainer>

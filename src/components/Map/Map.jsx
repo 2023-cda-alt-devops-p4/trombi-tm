@@ -11,7 +11,8 @@ import {
 } from 'react-leaflet';
 
 import {
-    FaCity
+    FaCity,
+    FaBirthdayCake
 } from "react-icons/fa";
 
 import { BiSolidMessageDetail } from "react-icons/bi";
@@ -77,6 +78,12 @@ const Map = ({
                         <Row>
                             <FaCity size={18} color={theme.colorPrimary()} />
                             <p>{modalData?.city}</p>
+                        </Row>
+                    )}
+                    onRightSubTitle={(
+                        <Row>
+                            <FaBirthdayCake size={18} color={theme.colorPrimary()} />
+                            {modalData?.birthday}
                         </Row>
                     )}
                     afterSubTitle={(

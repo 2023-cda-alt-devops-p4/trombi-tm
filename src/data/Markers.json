@@ -4,6 +4,7 @@
         "image": "https://media.licdn.com/dms/image/D4E03AQESvYIHXHd8sQ/profile-displayphoto-shrink_800_800/0/1683528669553?e=1700697600&v=beta&t=jA4KOB0TSa6pNyEiPJYOctC4X6fFdXfmpkWP_ceIpb8",
         "simpleWord": "Riz",
         "city": "Arras",
+        "birthday": "14/06",
         "position": [ 50.292000, 2.780000 ],
         "skills": [
             { "name": "SpringBoot", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Spring-Light.svg" },
@@ -20,6 +21,7 @@
         "image": "https://media.licdn.com/dms/image/D4E03AQFmbX6lwzdTFg/profile-displayphoto-shrink_800_800/0/1670926042356?e=1700697600&v=beta&t=9mPbuMQ9j9_FiJOyC-xywvxnzax9myyYeNmbiLfRAFE",
         "simpleWord": "Bonne humeur",
         "city": "La Madeleine",
+        "birthday": "15/02",
         "position": [ 50.64603, 3.07585 ],
         "skills": [
             {"name" : "Cobol", "icon" : "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_cobol_icon_130684.png"},
@@ -39,6 +41,7 @@
         "image": "https://media.licdn.com/dms/image/C4D03AQEhSrs2F8Kv1w/profile-displayphoto-shrink_800_800/0/1646907985243?e=1700697600&v=beta&t=4J_IcYT2egnYomU84P2XFF2josLGYsh6m8f_lXN1xto",
         "simpleWord": "Back-end",
         "city": "Valenciennes",
+        "birthday": "21/01",
         "position": [ 50.3579317, 3.5234846 ],
         "skills": [
             { "name": "React", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/React-Light.svg" },
@@ -59,6 +62,7 @@
         "image": "https://avatars.githubusercontent.com/u/129503345?v=4",
         "simpleWord": "Sa va",
         "city": "Templemars",
+        "birthday": "28/08",
         "position": [ 50.5762334, 3.0528537 ],
         "skills": [
             { "name": "React", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/React-Light.svg" },
@@ -77,6 +81,7 @@
         "image": "https://media.licdn.com/dms/image/D5603AQFTWWLF3oQh0g/profile-displayphoto-shrink_800_800/0/1665496487126?e=1700697600&v=beta&t=mM1OSwpVxUTXQytrszjqMUckKZfW9ZrsRRBYGiD_Doc",
         "simpleWord": "Curieux",
         "city": "Lille",
+        "birthday": "29/09",
         "position": [ 50.6265654,3.0635282 ],
         "skills": [
             { "name": "Angular", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Angular-Light.svg" },
@@ -93,6 +98,7 @@
         "image": "https://media.licdn.com/dms/image/D4E03AQGHN9PQU5oL0g/profile-displayphoto-shrink_800_800/0/1678267418185?e=1700697600&v=beta&t=tMt7i7wGJZWiZlijtgOGdTh2r1ybpIMWsAasrPoC8Wc",
         "simpleWord": "Plancton",
         "city": "Gretz-Armainvilliers",
+        "birthday": "08/02",
         "position": [ 48.7410407,2.7359603 ],
         "skills": [
             { "name": "React", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/React-Light.svg" },
@@ -114,6 +120,7 @@
         "image": "https://avatars.githubusercontent.com/u/130555127?v=4",
         "simpleWord": "Palmier",
         "city": "Lestrem",
+        "birthday": "04/02",
         "position": [ 50.6216212,2.6857534 ],
         "skills": [
             { "name": "React", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/React-Light.svg" },
@@ -134,6 +141,7 @@
         "image": "https://media.licdn.com/dms/image/D4E03AQHJpGBpfo6hEQ/profile-displayphoto-shrink_800_800/0/1692090102840?e=1700697600&v=beta&t=RYaJffYPQnqVLXsIaTLiezUhvgEPVUYw8ZJtcjutwk4",
         "simpleWord": "Persévérance",
         "city": "Ronchin",
+        "birthday": "20/01",
         "position": [ 50.6056749,3.0778827 ],
         "skills": [
             { "name": "React", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/React-Light.svg" },
@@ -152,6 +160,7 @@
         "image": "https://media.licdn.com/dms/image/C4D03AQGR3N7oPtWBXg/profile-displayphoto-shrink_800_800/0/1612951907708?e=1700697600&v=beta&t=thN0nOuPPeF3P1vM8vaVnpYP9y_C1vzsl6eMLOiK-EU",
         "simpleWord": "Soleil",
         "city": "Paris",
+        "birthday": "14/07",
         "position": [ 48.8588897,2.320041 ],
         "skills": [
             { "name": "React", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/React-Light.svg" },
@@ -177,6 +186,7 @@
         "image": "https://media.licdn.com/dms/image/D4E03AQExjG2BaPALWA/profile-displayphoto-shrink_800_800/0/1675516572257?e=1700697600&v=beta&t=IhTRcfFqsn2q__j8SF8_UaGGYyLMxZUeK6mPB88okao",
         "simpleWord": "Curieux",
         "city": "Paris",
+        "birthday": "19/02",
         "position": [ 48.8408897,2.366041 ],
         "skills": [
             { "name": "React", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/React-Light.svg" },
@@ -196,6 +206,7 @@
         "image": "https://avatars.githubusercontent.com/u/88105838?v=4",
         "simpleWord": "Fait chier",
         "city": "Fitz-James",
+        "birthday": "30/10",
         "position": [ 49.3918395,2.4283593 ],
         "skills": [
             { "name": "React", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/React-Light.svg" },
@@ -203,10 +214,10 @@
             { "name": "SQL", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/MySQL-Light.svg" }
         ],
         "hobbies": [
-            "Lecture",
-            "Séries",
-            "Rock Latino-Américain",
-            "Musique régionale du Nord du Mexique"
+            "Jeux vidéo de stratégie/point & click",
+            "Musique : métal ((brutal death, gothic), bachata, classique",
+            "Cuisine indienne",
+            "Généalogie"
         ]
     },
     {
@@ -214,6 +225,7 @@
         "image": "https://media.licdn.com/dms/image/D4E03AQFYZ33KFZxxNQ/profile-displayphoto-shrink_800_800/0/1682181015546?e=1700697600&v=beta&t=0gPt_An2vNt-gfR5gsdV8MgpYTpa-mChN-LVD_SvrVY",
         "simpleWord": "Champagne",
         "city": "Lille",
+        "birthday": "20/11",
         "position": [ 50.6405654,3.0685282 ],
         "skills": [
             { "name": "Vue", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/VueJS-Light.svg" },
@@ -236,6 +248,7 @@
         "image": "https://media.licdn.com/dms/image/D4E03AQF62H8IG5NJbA/profile-displayphoto-shrink_800_800/0/1677573268921?e=1701302400&v=beta&t=vcUB1dnlM5ttVk1WEa_GZ5l-uU2dUc8OyhtZ4oS3DOY",
         "simpleWord": "Oui",
         "city": "Roubaix",
+        "birthday": "22/01",
         "position": [ 50.6927049,3.177847 ],
         "skills": [
             { "name": "Symfony", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Symfony-Light.svg" },
@@ -252,7 +265,8 @@
         "image": "https://media.licdn.com/dms/image/C4E03AQEHgl7zMrio8g/profile-displayphoto-shrink_200_200/0/1614677595219?e=1700697600&v=beta&t=M0DCUSFCNbpYAKva1kfTKJn8jrRx4kNif-gnENtsKHg",
         "simpleWord": "Bienveillant",
         "city": "Lille",
-        "position": [ 50.633333, 3.066667 ],
+        "birthday": "24/05",
+        "position": [ 50.63333, 3.066667 ],
         "skills": [
             { "name": "Symfony", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Symfony-Light.svg" },
             { "name": "Asp.net", "icon": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/DotNet.svg" },
@@ -270,6 +284,20 @@
             "Développement",
             "Cinéma",
             "Séries"
+        ]
+    },
+    {
+        "name": "Jérémy Rouviller",
+        "image": "https://media.licdn.com/dms/image/C4D03AQGbrMwtR1pp6w/profile-displayphoto-shrink_400_400/0/1646730478066?e=1703116800&v=beta&t=Zq2oOd1a8XhxyDRatd1nZ4cPuafpDs1bOic6Rx1NrwI",
+        "simpleWord": "Atypique",
+        "city": "Lille",
+        "birthday": "21/03",
+        "position": [ 50.638331, 3.06667 ],
+        "skills": [
+
+        ],
+        "hobbies": [
+
         ]
     }
 ]
